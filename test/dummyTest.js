@@ -1,6 +1,6 @@
 import request from 'supertest';
 const { expect } = require('chai');
-import config from '../utils/config';
+import config from '../utils/config.js';
 
 let header = {
     'Content-Type': 'application/json'
