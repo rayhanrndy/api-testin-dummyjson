@@ -1,4 +1,4 @@
-require('dotenv').config();
+import 'dotenv/config';
 
 export default {
     baseUrl: process.env.BASE_URL,
